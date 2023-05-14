@@ -195,3 +195,33 @@ sample page at https://bs-nav-example-v2.netlify.app/
 
 </html>
 ```
+
+<br/>
+
+# JS if-else statemant
+```javascript
+let condition, decision;
+condition = "it's pouring now";
+decision = "bring an umbrella";
+
+if (condition.includes("pouring")) { //true
+ console.log(decision); //bring an umbrella
+}
+```
+
+```javascript
+let condition, decision;
+condition = "it's pouring now";
+condition = condition.replace("pouring", "drizzling");
+console.log(condition); //it's drizzling now
+
+if (condition.includes("pouring")) { //false
+
+ decision = "bring an umbrella";
+ console.log(decision);
+
+}else {
+ decision = "go hoodie";
+ console.log(decision); //go hoodie
+}
+```
