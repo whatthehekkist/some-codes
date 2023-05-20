@@ -29,7 +29,7 @@ let a=0,b=1,c=2; //case a, b, and c
 given that a JS object (array) contains a set of face shape prediction results for an input image returned by an AI, 
 prepare and show the best matching face shape result with the input image in browser using swtich statement. <br/>
 
-The following code is a sample for a specific logic in a task of program (web app), so it's NOT executable.
+The following code is a sample for a specific task in a program (web app), so it's NOT executable.<br/>
 More on my ebook and source code at:
 
 -  <a href="https://www.buymeacoffee.com/whatthehekkist/e/137168">[ebook | PDF] What The Hekk is HTML/CSS/JS?</a>
@@ -73,5 +73,5 @@ More on my ebook and source code at:
       resultComment = '';
   }
 
-/* process to show human readable result (text & chat) in browser.. */ 
+/* process to show human readable result (text & chart) in browser.. */ 
 ```
